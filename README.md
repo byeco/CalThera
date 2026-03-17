@@ -1,3 +1,5 @@
+<img width="1640" height="664" alt="Yeni Proje (6)" src="https://github.com/user-attachments/assets/266f6851-e329-4ba1-85da-18d896a4c268" />
+
 # 🏗️ CalThera - Akıllı İnşaat ve Metraj Yönetim Platformu
 
 **CalThera**, müteahhitler, şantiye şefleri ve ev sahipleri için geliştirilmiş kapsamlı bir **dijital mimarlık, metraj ve maliyet analizi** platformudur.
