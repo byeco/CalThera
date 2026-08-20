@@ -34,13 +34,16 @@ Geleneksel hesaplama yöntemlerini yapay zeka ve modern arayüzle birleştiren C
 - **Excel Dışa Aktarım:** Metraj listelerini malzeme siparişi için Excel (CSV) formatında indirin.
 - **Şantiye Günlüğü:** Günlük iş ilerleyişini, notları ve kritik stok durumlarını kaydedin.
 
+## Güvenlik Kontrolü
+
+<img width="1851" height="883" alt="image" src="https://github.com/user-attachments/assets/446008fc-d6e7-4b92-8863-e9d982ba2804" />
+
+
 ## 📥 İndirme ve Kurulum
 
 Bu uygulama Windows işletim sistemleri için tasarlanmıştır.
 
-1.  Bu sayfanın sağ tarafındaki **"Releases"** bölümüne tıklayın.
-2.  En son sürüm olan `v1.0.0` altındaki `.exe` dosyasını indirin.
-3.  İndirdiğiniz dosyayı çalıştırarak kurulumu tamamlayın.
+[CalThera ücretsiz İndir](https://github.com/byeco/CalThera/releases/tag/Build)
 
 *Not: Uygulama verilerinizi bulutta saklamak için Google hesabı veya e-posta ile giriş yapmanız gerekmektedir.*
 
