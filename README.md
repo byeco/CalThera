@@ -1,52 +1,62 @@
-<img width="1640" height="664" alt="Yeni Proje (6)" src="https://github.com/user-attachments/assets/266f6851-e329-4ba1-85da-18d896a4c268" />
+<img width="1640" height="664" alt="CalThera Arayüz" src="https://github.com/user-attachments/assets/266f6851-e329-4ba1-85da-18d896a4c268" />
 
-# 🏗️ CalThera - Akıllı İnşaat ve Metraj Yönetim Platformu
+# CalThera - Dijital Metraj ve Maliyet Analizi Yazılımı
 
-**CalThera**, müteahhitler, şantiye şefleri ve ev sahipleri için geliştirilmiş kapsamlı bir **dijital mimarlık, metraj ve maliyet analizi** platformudur.
+**Sürüm:** 1.0.0 (Build) | **Platform:** Windows x64  
+**Geliştirici:** byeco
 
-Geleneksel hesaplama yöntemlerini yapay zeka ve modern arayüzle birleştiren CalThera ile daire planlarını çizebilir, saniyeler içinde inşaat maliyetlerini hesaplayabilir ve binanızın ısıtma gereksinimlerini analiz edebilirsiniz.
+CalThera; inşaat, mimarlık ve gayrimenkul sektöründeki profesyoneller (müteahhitler, mimarlar, şantiye şefleri) için bağımsız olarak geliştirilmiş kapsamlı bir masaüstü yazılımıdır. 
 
-## 🌟 Temel Özellikler
-
-### 📐 1. Akıllı Mimari Planlama
-- **Kolay Çizim:** Sürükle-bırak yöntemiyle veya özel ölçüler girerek odaları oluşturun.
-- **Çokgen & Asimetrik Odalar:** Sadece dikdörtgen değil, özel çizim aracıyla karmaşık oda yapılarını (L tipi, açılı duvarlar vb.) çizin.
-- **Detaylı Yapı:** Kapı, pencere ve radyatörleri plana ekleyerek net duvar alanlarını otomatik hesaplatın.
-- **AI Mimar:** Yapay zeka asistanına hayalinizdeki evi tarif edin (örn: "120m2, 3+1, geniş salonlu"), sizin için otomatik tasarlasın.
-
-### 🧱 2. Otomatik Metraj ve Maliyet Analizi
-- **Kaba İnşaat:** Gerekli beton hacmini (m³) ve demir/kalıp işçilik maliyetlerini anlık hesaplar.
-- **Duvar Analizi:** Tuğla sayısı, harç miktarı ve duvar işçiliğini belirler.
-- **İnce İşler:** Sıva (torba), boya (kova) ve zemin kaplama (parke/seramik m²) ihtiyaçlarını fire oranlarıyla birlikte çıkarır.
-- **Bütçe Takibi:** Güncel birim fiyatlar (ÇŞB ve Piyasa verileri) üzerinden toplam proje bütçesini sunar.
-
-### 🛋️ 3. İç Mekan Tasarımı
-- **Tefriş Kütüphanesi:** Odalarınızı koltuk, masa, yatak, mutfak dolabı gibi eşyalarla döşeyin.
-- **Görselleştirme:** Yaşam alanlarının kullanımını ölçekli olarak simüle edin.
-
-### 🏢 4. Apartman ve Isı Yönetimi
-- **Bina Simülasyonu:** Çizdiğiniz daire planlarını katlara atayarak apartman projesi oluşturun.
-- **Kazan Kapasitesi:** Binanın yalıtım durumu (İyi, Orta, Kötü) ve hacmine göre gerekli kazan gücünü (kW ve kcal/h) hesaplar.
-- **Yakıt Maliyeti:** Tahmini aylık doğalgaz tüketimini ve daire başına düşen aidat payını analiz eder.
-
-### 📊 5. Raporlama ve Şantiye Takibi
-- **Teknik Rapor (PDF):** Projenin tüm teknik detaylarını içeren profesyonel PDF raporu oluşturun.
-- **Excel Dışa Aktarım:** Metraj listelerini malzeme siparişi için Excel (CSV) formatında indirin.
-- **Şantiye Günlüğü:** Günlük iş ilerleyişini, notları ve kritik stok durumlarını kaydedin.
-
-## Güvenlik Kontrolü
-
-<img width="1851" height="883" alt="image" src="https://github.com/user-attachments/assets/446008fc-d6e7-4b92-8863-e9d982ba2804" />
-
-
-## 📥 İndirme ve Kurulum
-
-Bu uygulama Windows işletim sistemleri için tasarlanmıştır.
-
-[CalThera ücretsiz İndir](https://github.com/byeco/CalThera/releases/tag/Build)
-
-*Not: Uygulama verilerinizi bulutta saklamak için Google hesabı veya e-posta ile giriş yapmanız gerekmektedir.*
+Proje ön hazırlık, metraj çıkarma, maliyet analizi ve ısıtma gereksinimleri gibi karmaşık inşaat süreçlerini tek bir merkezden yönetmenizi sağlayan entegre çözümler sunar.
 
 ---
 
-**CalThera** ile inşaat süreçlerinizi dijitalleştirin, maliyetleri kontrol altına alın! 🏗️💡
+## Sistem Özellikleri ve Modüller
+
+### 1. Mimari Modelleme Motoru
+* **Gelişmiş Çizim Araçları:** Parametrik veri girişi veya serbest çizim algoritmalarıyla kat planlarının oluşturulması. Asimetrik yapılar ve standart dışı açılı duvar mimarileri tam olarak desteklenmektedir.
+* **Akıllı Bileşen Yönetimi:** Kapı, pencere ve tesisat bileşenlerinin yerleşimi; bu verilere dayalı net alan (duvar/zemin) kayıplarının otomatik hesaplanması.
+* **Yapay Zeka (AI) Destekli Prototipleme:** Doğal dil işleme (NLP) tabanlı komutlar (örn. "120m², 3+1") ile saniyeler içinde taslak proje üretimi.
+* **Tefrişat ve Mekan Simülasyonu:** Ölçeklendirilmiş 2D kütüphane üzerinden mekan kullanım verimliliğinin analiz edilmesi.
+
+### 2. Otomatize Metraj ve Maliyet Yönetimi
+* **Kaba Yapı Analizi:** Betonarme hacmi (m³), donatı ve kalıp ihtiyaçlarının çıkarılması; güncel işçilik endekslerine göre maliyetlendirme.
+* **İnce Yapı Analizi:** Duvar (tuğla/bims), sıva, boya ve zemin kaplama materyallerinin sektörel fire oranları (%5-%10) gözetilerek hesaplanması.
+* **Dinamik Bütçelendirme:** ÇŞB (Çevre, Şehircilik ve İklim Değişikliği Bakanlığı) birim fiyatları ve serbest piyasa verileri entegrasyonu ile proje bütçesinin anlık takibi.
+
+### 3. Tesisat ve Enerji İhtiyacı Analizi
+* Çok katlı yapı simülasyonu ile bağımsız bölümlerin apartman/site komplekslerine dönüştürülmesi.
+* Binanın yalıtım katsayısı (U-değeri standartları) ve toplam iklimlendirilebilir hacmine göre gerekli kazan/kombi kapasitesinin (kW ve kcal/h) mühendislik hesaplaması.
+* Tahmini enerji tüketimi ve bağımsız bölüm başına düşen operasyonel gider (aidat/yakıt) analizleri.
+
+### 4. Veri Dışa Aktarımı ve Raporlama
+* Paydaşlara sunulmak üzere, tüm teknik metrikleri içeren profesyonel PDF raporu çıktısı.
+* Tedarik zinciri ve satın alma süreçleri için metraj verilerinin Excel (CSV) formatında entegrasyonu.
+* Şantiye operasyonları için tarih bazlı dijital log (günlük) yönetimi.
+
+---
+
+## Güvenlik ve Bütünlük Taraması
+
+Uygulamanın güncel derlemesi (build), bağımsız güvenlik platformları tarafından düzenli olarak taranmaktadır. Çalıştırılabilir (.exe) dosyaya ait temiz güvenlik raporu aşağıda sunulmuştur:
+
+<img width="1851" height="883" alt="VirusTotal Sonucu" src="https://github.com/user-attachments/assets/446008fc-d6e7-4b92-8863-e9d982ba2804" />
+
+---
+
+## Dağıtım ve Kurulum
+
+### Sistem Gereksinimleri
+* **İşletim Sistemi:** Windows 10 veya Windows 11 (64-bit)
+* **Depolama:** Minimum 500 MB boş disk alanı
+* **Bağlantı:** Proje senkronizasyonu ve bulut veri yedeklemesi için aktif internet bağlantısı.
+
+### İndirme Bağlantısı
+Uygulamanın en güncel ve stabil sürümünü güvenli bir şekilde indirmek için aşağıdaki bağlantıyı kullanabilirsiniz:
+
+🔗 **[CalThera - Kurulum Dosyasını İndir (.exe)](https://github.com/byeco/CalThera/releases/tag/Build)**
+
+> **Kullanım Notu:** Bireysel projelerinizin güvenliği ve bulut senkronizasyonunun sağlanabilmesi için uygulamayı ilk açtığınızda kayıtlı e-posta adresiniz veya Google hesabınız ile oturum açmanız gerekmektedir.
+
+---
+*© 2026 byeco. Tüm hakları saklıdır.*
