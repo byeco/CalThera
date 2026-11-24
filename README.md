@@ -54,7 +54,7 @@ Uygulamanın güncel derlemesi (build), bağımsız güvenlik platformları tara
 ### İndirme Bağlantısı
 Uygulamanın en güncel ve stabil sürümünü güvenli bir şekilde indirmek için aşağıdaki bağlantıyı kullanabilirsiniz:
 
-🔗 **[CalThera - Kurulum Dosyasını İndir (.exe)](https://github.com/byeco/CalThera/releases/tag/Build)**
+🔗 **[CalThera - Kurulum Dosyasını İndir (.exe)](https://github.com/byeco/CalThera/releases/tag/v1.5.0)**
 
 > **Kullanım Notu:** Bireysel projelerinizin güvenliği ve bulut senkronizasyonunun sağlanabilmesi için uygulamayı ilk açtığınızda kayıtlı e-posta adresiniz veya Google hesabınız ile oturum açmanız gerekmektedir.
 
